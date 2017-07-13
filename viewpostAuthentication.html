@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SoftUni Blog</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <script src="scripts/jquery-1.10.2.js"></script>
+    <script src="scripts/bootstrap.js"></script>
+</head>
+<body>
+<header>
+    <div class="navbar navbar-default navbar-fixed-top text-uppercase">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="index.html" class="navbar-brand">SoftUni Blog</a>
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="registernewaccount.html">Register</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main>
+    <div class="container body-content">
+        <div class="row">
+            <div class="col-md-6">
+                <article>
+                    <header>
+                        <h2>Two-factor authentication is a good idea that doesn’t work anymore</h2>
+                        <h4>It was supposed to be a one-stop security fix. What happened?</h4>
+                    </header>
+
+                    <p>
+                        For years, two-factor authentication has been the most important advice in personal
+                        cybersecurity — one that consumer tech companies were surprisingly slow to recognize.
+                        The movement seemed to coalesce in 2012, after journalist Mat Honan saw hackers
+                        compromise his Twitter, Amazon, and iCloud accounts, an incident he later detailed
+                        in Wired. At the time, few companies offered easy forms of two-factor, leaving limited
+                        options for users worried about a Honan-style hack. The result was a massive public
+                        campaign that demanded companies to adopt the feature, presenting two-factor as a
+                        simple, effective way to block account takeovers. <br/>
+                        <br />
+                        Five years later, the advice is starting to wear thin. Nearly all major web services
+                        now provide some form of two-factor authentication, but they vary greatly in how well
+                        they protect accounts. Dedicated hackers have little problem bypassing through the weaker
+                        implementations, either by intercepting codes or exploiting account-recovery systems.
+                        We talk about two-factor like aspirin — a uniform, all-purpose fix that’s straightforward to
+                        apply — but the reality is far more complex. The general framework still offers meaningful
+                        protection, but it’s time to be honest about its limits. In 2017, just having two-factor is
+                        no longer enough. <br />
+                        <br />
+                        For much of the last five years, the center of the campaign for two-factor has been
+                        <a target="_blank" href="http://twofactorauth.org">twofactorauth.org</a>, a site run by Carl Rosengren
+                        that’s dedicated to naming and shaming any product that doesn’t offer two-factor.
+                        At a glance, it can tell you which sites offer more than just a password login, and
+                        offers you an easy way to tweet at companies that don’t.
+                        Today, the site sends out hundreds of thousands of shaming tweets a day. <br />
+                        <br />
+                        The campaign seems to have worked; nearly every company now offers some form of two-factor.
+                        Netflix is the biggest holdout — “I feel like I should buy a cake or something when that
+                        happens,” Rosengren says. Late adopters like Amazon and BitBucket have caved to demands, and
+                        every single VPN or cryptocurrency product listed by the site offers two-factor. The only
+                        email services without it are obscure players like Migadu and Mail.com. There are still a
+                        few problem sectors like airlines and banks, but most services have gotten the message:
+                        consumers want two-factor. If you don’t offer it, they’ll find a service that does. <br />
+                        <br />
+                        But victory has been messier than anyone expected. There are dozens of different varieties
+                        of two-factor now, expanding far beyond the site’s ability to catalog them. Some send
+                        verification codes over SMS text, while others use email or more hardened verification apps
+                        like Duo and Google Auth. For $18, you can get a special USB drive to serve as your second
+                        factor, supported by most major services. It’s one of the most secure options available,
+                        as long as you don’t lose it. Beyond hardware, services can deposit long strings of code that
+                        provide an effectively invisible second factor — provided no one intercepts it in transit.
+                        Some of these methods are easier to hack than others, but even sophisticated users often can’t
+                        tell you which is better. For a while, TwoFactorAuth tried to keep up with which services were
+                        better or worse. Eventually, there were just too many. <br />
+                        “If it’s hard for us to evaluate the hundreds of two-factor services,” Rosengren says,
+                        “I can’t begin to imagine how hard it would be for a consumer.”
+                    </p>
+
+                    <small class="author">
+                        Russell Brandon
+                    </small>
+
+                    <footer>
+                        <div class="pull-right">
+                            <a class="btn btn-default btn-xs" href="index.html">&laquo; back</a>
+                        </div>
+                    </footer>
+                </article>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="container modal-footer">
+        <p>
+            &copy; 2016 - Software University Foundation
+        </p>
+    </div>
+</footer>
+</body>
+</html>
